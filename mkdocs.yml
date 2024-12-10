@@ -1,0 +1,51 @@
+site_name: پاین اسکریپت
+site_url: https://dothossein.github.io/pine
+theme:
+  name: material
+  language: fa
+  font:
+    text: Vazirmatn
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.expand
+    - navigation.path
+    - toc.follow
+    - navigation.top
+    - content.code.copy 
+    - content.code.select
+    - content.code.annotate
+
+    
+
+  palette:
+    scheme: slate
+
+markdown_extensions:  
+  - def_list
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+  - pymdownx.highlight:
+      guess_lang: true
+      anchor_linenums: true
+      use_pygments: true
+      line_spans: __span
+      pygments_lang_class: true
+      linenums: true
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+
+extra_css:
+  - stylesheets/extra.css
