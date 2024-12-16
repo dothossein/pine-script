@@ -1,0 +1,5 @@
+.md-typeset code, 
+.md-typeset pre {
+    white-space: pre-wrap; /* خطوط بلند شکسته می‌شوند */
+    word-wrap: break-word; /* کلمات بلند به خطوط بعدی می‌روند */
+}
