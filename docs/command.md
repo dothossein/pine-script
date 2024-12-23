@@ -17,6 +17,7 @@ timeframe.period
 
 ---
 
+
 ### if
 
 ```pine
@@ -125,4 +126,14 @@ function(type a,type b) =>
 
 ---
 
-###
+### مقدار اولیه سرمایه
+
+```pine
+
+strategy.initial_capital
+
+```
+
+---
+
+### 
